@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CEB2398256F6DE200EF7559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB2397256F6DE200EF7559 /* AppDelegate.swift */; };
+		2CEB239A256F6DE200EF7559 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB2399256F6DE200EF7559 /* SceneDelegate.swift */; };
+		2CEB239C256F6DE200EF7559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB239B256F6DE200EF7559 /* ViewController.swift */; };
+		2CEB239F256F6DE200EF7559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEB239D256F6DE200EF7559 /* Main.storyboard */; };
+		2CEB23A1256F6DE500EF7559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEB23A0256F6DE500EF7559 /* Assets.xcassets */; };
+		2CEB23A4256F6DE500EF7559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEB23A2256F6DE500EF7559 /* LaunchScreen.storyboard */; };
+		2CEB23BB256F844C00EF7559 /* SampleGALog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CEB23AF256F844C00EF7559 /* SampleGALog.plist */; };
+		2CEB23BC256F844C00EF7559 /* SwiftyGA_Chromosome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B0256F844C00EF7559 /* SwiftyGA_Chromosome.swift */; };
+		2CEB23BD256F844C00EF7559 /* SwiftyGA_FitnessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B1256F844C00EF7559 /* SwiftyGA_FitnessFunction.swift */; };
+		2CEB23BE256F844C00EF7559 /* SwiftyGA_GAComputation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B2256F844C00EF7559 /* SwiftyGA_GAComputation.swift */; };
+		2CEB23BF256F844C00EF7559 /* SwiftyGA_Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B3256F844C00EF7559 /* SwiftyGA_Log.swift */; };
+		2CEB23C0256F844C00EF7559 /* SwiftyGA_OperatorCrossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B4256F844C00EF7559 /* SwiftyGA_OperatorCrossover.swift */; };
+		2CEB23C1256F844C00EF7559 /* SwiftyGA_OperatorMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B5256F844C00EF7559 /* SwiftyGA_OperatorMutation.swift */; };
+		2CEB23C2256F844C00EF7559 /* SwiftyGA_Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B6256F844C00EF7559 /* SwiftyGA_Parameters.swift */; };
+		2CEB23C3256F844C00EF7559 /* SwiftyGA_ParentSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B7256F844C00EF7559 /* SwiftyGA_ParentSelection.swift */; };
+		2CEB23C4256F844C00EF7559 /* SwiftyGA_Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B8256F844C00EF7559 /* SwiftyGA_Population.swift */; };
+		2CEB23C5256F844C00EF7559 /* SwiftyGA_Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23B9256F844C00EF7559 /* SwiftyGA_Tools.swift */; };
+		2CEB23C9256FABC000EF7559 /* LocationCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23C8256FABC000EF7559 /* LocationCity.swift */; };
+		2CEB23CC256FD0B400EF7559 /* MyCustomFitnessFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB23CB256FD0B400EF7559 /* MyCustomFitnessFunction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CEB2394256F6DE200EF7559 /* SwiftyGA_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyGA_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEB2397256F6DE200EF7559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CEB2399256F6DE200EF7559 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CEB239B256F6DE200EF7559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CEB239E256F6DE200EF7559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CEB23A0256F6DE500EF7559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CEB23A3256F6DE500EF7559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CEB23A5256F6DE500EF7559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEB23AF256F844C00EF7559 /* SampleGALog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleGALog.plist; sourceTree = "<group>"; };
+		2CEB23B0256F844C00EF7559 /* SwiftyGA_Chromosome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_Chromosome.swift; sourceTree = "<group>"; };
+		2CEB23B1256F844C00EF7559 /* SwiftyGA_FitnessFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_FitnessFunction.swift; sourceTree = "<group>"; };
+		2CEB23B2256F844C00EF7559 /* SwiftyGA_GAComputation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_GAComputation.swift; sourceTree = "<group>"; };
+		2CEB23B3256F844C00EF7559 /* SwiftyGA_Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_Log.swift; sourceTree = "<group>"; };
+		2CEB23B4256F844C00EF7559 /* SwiftyGA_OperatorCrossover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_OperatorCrossover.swift; sourceTree = "<group>"; };
+		2CEB23B5256F844C00EF7559 /* SwiftyGA_OperatorMutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_OperatorMutation.swift; sourceTree = "<group>"; };
+		2CEB23B6256F844C00EF7559 /* SwiftyGA_Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_Parameters.swift; sourceTree = "<group>"; };
+		2CEB23B7256F844C00EF7559 /* SwiftyGA_ParentSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_ParentSelection.swift; sourceTree = "<group>"; };
+		2CEB23B8256F844C00EF7559 /* SwiftyGA_Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_Population.swift; sourceTree = "<group>"; };
+		2CEB23B9256F844C00EF7559 /* SwiftyGA_Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGA_Tools.swift; sourceTree = "<group>"; };
+		2CEB23C8256FABC000EF7559 /* LocationCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCity.swift; sourceTree = "<group>"; };
+		2CEB23CB256FD0B400EF7559 /* MyCustomFitnessFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomFitnessFunction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CEB2391256F6DE200EF7559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CEB238B256F6DE200EF7559 = {
+			isa = PBXGroup;
+			children = (
+				2CEB2396256F6DE200EF7559 /* SwiftyGA_Demo */,
+				2CEB2395256F6DE200EF7559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CEB2395256F6DE200EF7559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB2394256F6DE200EF7559 /* SwiftyGA_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CEB2396256F6DE200EF7559 /* SwiftyGA_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB23AD256F844C00EF7559 /* SwiftyGA */,
+				2CEB2397256F6DE200EF7559 /* AppDelegate.swift */,
+				2CEB2399256F6DE200EF7559 /* SceneDelegate.swift */,
+				2CEB239B256F6DE200EF7559 /* ViewController.swift */,
+				2CEB23C8256FABC000EF7559 /* LocationCity.swift */,
+				2CEB23CB256FD0B400EF7559 /* MyCustomFitnessFunction.swift */,
+				2CEB239D256F6DE200EF7559 /* Main.storyboard */,
+				2CEB23A0256F6DE500EF7559 /* Assets.xcassets */,
+				2CEB23A2256F6DE500EF7559 /* LaunchScreen.storyboard */,
+				2CEB23A5256F6DE500EF7559 /* Info.plist */,
+			);
+			path = SwiftyGA_Demo;
+			sourceTree = "<group>";
+		};
+		2CEB23AD256F844C00EF7559 /* SwiftyGA */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB23AF256F844C00EF7559 /* SampleGALog.plist */,
+				2CEB23B0256F844C00EF7559 /* SwiftyGA_Chromosome.swift */,
+				2CEB23B1256F844C00EF7559 /* SwiftyGA_FitnessFunction.swift */,
+				2CEB23B2256F844C00EF7559 /* SwiftyGA_GAComputation.swift */,
+				2CEB23B3256F844C00EF7559 /* SwiftyGA_Log.swift */,
+				2CEB23B4256F844C00EF7559 /* SwiftyGA_OperatorCrossover.swift */,
+				2CEB23B5256F844C00EF7559 /* SwiftyGA_OperatorMutation.swift */,
+				2CEB23B6256F844C00EF7559 /* SwiftyGA_Parameters.swift */,
+				2CEB23B7256F844C00EF7559 /* SwiftyGA_ParentSelection.swift */,
+				2CEB23B8256F844C00EF7559 /* SwiftyGA_Population.swift */,
+				2CEB23B9256F844C00EF7559 /* SwiftyGA_Tools.swift */,
+			);
+			path = SwiftyGA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CEB2393256F6DE200EF7559 /* SwiftyGA_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEB23A8256F6DE500EF7559 /* Build configuration list for PBXNativeTarget "SwiftyGA_Demo" */;
+			buildPhases = (
+				2CEB2390256F6DE200EF7559 /* Sources */,
+				2CEB2391256F6DE200EF7559 /* Frameworks */,
+				2CEB2392256F6DE200EF7559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGA_Demo;
+			productName = SwiftyGA_Demo;
+			productReference = 2CEB2394256F6DE200EF7559 /* SwiftyGA_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CEB238C256F6DE200EF7559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2CEB2393256F6DE200EF7559 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2CEB238F256F6DE200EF7559 /* Build configuration list for PBXProject "SwiftyGA_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CEB238B256F6DE200EF7559;
+			productRefGroup = 2CEB2395256F6DE200EF7559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CEB2393256F6DE200EF7559 /* SwiftyGA_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CEB2392256F6DE200EF7559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEB23A4256F6DE500EF7559 /* LaunchScreen.storyboard in Resources */,
+				2CEB23A1256F6DE500EF7559 /* Assets.xcassets in Resources */,
+				2CEB239F256F6DE200EF7559 /* Main.storyboard in Resources */,
+				2CEB23BB256F844C00EF7559 /* SampleGALog.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CEB2390256F6DE200EF7559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEB23BD256F844C00EF7559 /* SwiftyGA_FitnessFunction.swift in Sources */,
+				2CEB23BE256F844C00EF7559 /* SwiftyGA_GAComputation.swift in Sources */,
+				2CEB23BF256F844C00EF7559 /* SwiftyGA_Log.swift in Sources */,
+				2CEB239C256F6DE200EF7559 /* ViewController.swift in Sources */,
+				2CEB23C5256F844C00EF7559 /* SwiftyGA_Tools.swift in Sources */,
+				2CEB23C1256F844C00EF7559 /* SwiftyGA_OperatorMutation.swift in Sources */,
+				2CEB23C0256F844C00EF7559 /* SwiftyGA_OperatorCrossover.swift in Sources */,
+				2CEB23BC256F844C00EF7559 /* SwiftyGA_Chromosome.swift in Sources */,
+				2CEB23C2256F844C00EF7559 /* SwiftyGA_Parameters.swift in Sources */,
+				2CEB23C4256F844C00EF7559 /* SwiftyGA_Population.swift in Sources */,
+				2CEB2398256F6DE200EF7559 /* AppDelegate.swift in Sources */,
+				2CEB239A256F6DE200EF7559 /* SceneDelegate.swift in Sources */,
+				2CEB23C3256F844C00EF7559 /* SwiftyGA_ParentSelection.swift in Sources */,
+				2CEB23CC256FD0B400EF7559 /* MyCustomFitnessFunction.swift in Sources */,
+				2CEB23C9256FABC000EF7559 /* LocationCity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CEB239D256F6DE200EF7559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CEB239E256F6DE200EF7559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CEB23A2256F6DE500EF7559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CEB23A3256F6DE500EF7559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CEB23A6256F6DE500EF7559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CEB23A7256F6DE500EF7559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CEB23A9256F6DE500EF7559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftyGA_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivan.swiftygademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CEB23AA256F6DE500EF7559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftyGA_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivan.swiftygademo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CEB238F256F6DE200EF7559 /* Build configuration list for PBXProject "SwiftyGA_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEB23A6256F6DE500EF7559 /* Debug */,
+				2CEB23A7256F6DE500EF7559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CEB23A8256F6DE500EF7559 /* Build configuration list for PBXNativeTarget "SwiftyGA_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEB23A9256F6DE500EF7559 /* Debug */,
+				2CEB23AA256F6DE500EF7559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CEB238C256F6DE200EF7559 /* Project object */;
+}
